@@ -34,7 +34,7 @@ const sessionDecrement = () => {
 const sessionIncrement = () => {
   var elem = document.getElementById("session-length");
   var num = parseInt(elem.innerHTML, 10);
-  if (num > 1) {
+  if (num < 59) {
     elem.innerHTML = num + 1;
   }
 };
