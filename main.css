@@ -1,0 +1,27 @@
+body {
+  background-color: #222240;
+  color: white;
+  font-size: 2rem;
+  margin-top: 10vh;
+}
+
+button {
+  color: white;
+  background-color: #222280;
+  border: 4px solid white;
+  border-radius: 5px;
+  font-size: 2rem;
+}
+
+h3 {
+  margin-bottom: 0px;
+}
+h1 {
+  margin-top: 0px;
+}
+
+#container {
+  display: grid;
+  justify-content: center;
+  text-align: center;
+}
